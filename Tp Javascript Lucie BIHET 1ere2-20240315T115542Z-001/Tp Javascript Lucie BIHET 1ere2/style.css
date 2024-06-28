@@ -1,0 +1,125 @@
+/*Header*/
+
+header {
+	color: #36955E;	
+}
+
+header h1 {
+	position: relative;
+	top: 0px;
+	left: 10px;
+	font: 60px Georgia
+}
+
+
+/*Body*/
+
+body {
+	background: #BAFFED;
+	padding: 20px 50px;
+}
+
+
+/*Footer*/
+
+footer {
+	font-size: 20px;
+	background: #DAFFD0;
+}
+
+footer {
+	margin-top: 50px;
+	padding: 2%;
+}
+
+
+/*Section*/
+
+section {
+	background: #DAFFD0;
+	padding: 30px;
+	font-family: Georgia, serif;
+}
+
+h3 {
+	color: grey ;
+}
+
+
+/*Cours*/
+
+#cours{
+    display:none;
+}
+
+#titre {
+	color: #36955E;
+}
+
+
+/*Activité 2*/
+
+#alacnes {
+	border: outset #36955E;
+	padding: 20px;
+}
+
+.droppable-elements {
+	padding: 10px; 
+}
+
+.draggable-elements {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	padding: 10px; 
+}
+.draggable {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	cursor: move;
+}
+.draggable:hover {
+	opacity: 0.5;
+}
+.droppable {
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #ECFFE2;
+	border: 3px dashed;
+	width: 300px;
+}
+.droppable span {
+	font-size: 20px;
+	pointer-events: none;
+	margin: 5px;
+}
+
+.droppable.droppable-hover {
+	border-width: 5px;
+}
+.droppable.dropped {
+	border-style: solid;
+	color: #fff;
+}
+.droppable.dropped span {
+	font-size: 20px;
+	margin-top: 0.5rem;
+}
+.droppable.dropped i {
+	pointer-events: none;
+}
+.draggable.dragged {
+	user-select: none;
+	opacity: 0.1;
+	cursor: default;
+}
+.draggable.dragged:hover {
+	opacity: 0.1;
+}

@@ -1,0 +1,31 @@
+READ ME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fait par BIHET Lucie 1ere2
+Fait sur Notepad++ et Mozilla Firefox
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ouvrez le site si possible sur un écran de pc
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le site est séparé en 3 parties :
+- Le cours
+-L'acticité 1 où il faut retrouver le nom des alcanes
+-L'activité 2 où il faut glisser les alcanes sur leur nom
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Javascript :
+- Cours : permet de montrer ou non le cours en cliquant sur la balise indiquée
+- Activité 1 : - fonction resultat parcours toutes les réponses sélectionnées et les compare à la bonne réponse pour faire le score final
+			   - des pops up s'affichent si le joueur a laissé une entrée vide, s'il a fait un sans-faute ou inversement que des fautes
+- Activité 2 : - les draggableElements.forEach permettent de lancer les fonctions si l'utilisateur fait une action pour chacun des objets draggable
+			   - dragStart permet d'obtenir les infos du draggable
+			   - dragEnter change certaines classes pour les effets de style quanq un draggable rentre dans un droppable
+			   - dragOver fait le même genre d'action que la fonction précedente mais lorsque qu'un droppable est survolé
+			   - dragLeave fait le même genre d'action que les deux fonctions précedentes mais lorsque qu'un droppable est quitté
+			   - drop gère quand un draggable est lâché dans un droppable  , c'est à dire de changer les classes des objets pour qu'ils ne bougent plus, changer la couleur et comparer pour voir si c'est la bonne réponse
+			   Quand une réponse est juste, la case est verte et rouge si c'est faux
+- Refresh : - gère les boutons pour réinitialiser la page et ainsi recommencer les jeux
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Difficultés :
+J'ai rencontré beaucoup de problèmes pour la seconde activité car ce qu'on me proposait sur Internet n'était jamais la même et chose et très peu clair.
+De plus je ne voulais pas copier un code sans comprendre.
+J'ai donc trouvé un tuto sur Youtube avec lequel j'ai pu réalisé et comprendre comment faire la deuxième activité.
+De plus, même en réactualisant la page, les options des listes déroulantes ne se remettent pas par défaut et je ne comprends pas pourquoi.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
